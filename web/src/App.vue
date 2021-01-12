@@ -19,11 +19,38 @@ export default {
 </script>
 
 <style>
+/* vars */
+:root {
+    --main-black: #18191a;
+    --seconday-black: #1f1f1f;
+    --amoled-black: #000000;
+    --main-grey: #2b2b2b;
+    --secondary-grey: #303030;
+    --tertiary-grey: #858585b7;
+    --main-blue: #111827;
+    --accent-main-green: #37ab45;
+    --accent-secondary-green: #31eaaa;
+    --accent-main-red: #9f3537;
+    --accent-secondary-red: #e65152;
+    --accent-main-blue: #70eef1;
+
+    --main-font-color: #f2f2f2;
+}
+
+body {
+    background-color: var(--main-black);
+    color: var(--main-font-color);
+    width: 80%;
+    margin: auto;
+}
+
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
 }
 </style>
