@@ -37,6 +37,11 @@ export default {
     --main-font-color: #f2f2f2;
 }
 
+::selection {
+    background: var(--main-font-color);
+    color: var(--main-black);
+}
+
 body {
     background-color: var(--main-black);
     color: var(--main-font-color);
