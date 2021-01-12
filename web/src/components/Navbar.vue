@@ -67,6 +67,15 @@ export default {
         },
         setActive(menuItem) {
             this.activeItem = menuItem;
+
+            // hacky but good enough
+            if (!(this.$route.path == `/${menuItem}`)) {
+                if (menuItem == "home") {
+                    this.$route.path == "/" ? {} : this.$router.push("/");
+                } else {
+                    this.$router.push(menuItem);
+                }
+            }
         }
     }
 };
