@@ -21,20 +21,31 @@
                 <img src="../assets/banner.png" />
             </div>
         </div>
+        <div class="btn">
+            <Button msg="Inizia" />
+        </div>
     </div>
 </template>
 
 
 <script>
 import VueTextGlitch from "vue-text-glitch";
+import Button from "../components/Button.vue";
+
 export default {
     components: {
-        TextGlitch: VueTextGlitch
+        TextGlitch: VueTextGlitch,
+        Button
     }
 };
 </script>
 
 <style scoped>
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
 .banner {
     width: 100%;
     height: 300px;
@@ -52,6 +63,10 @@ export default {
 .pic img {
     width: 100%;
     height: 100%;
+}
+
+.btn {
+    margin-left: 85px;
 }
 
 .intro {
