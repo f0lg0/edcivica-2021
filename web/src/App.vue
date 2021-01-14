@@ -24,15 +24,24 @@ export default {
     --main-black: #18191a;
     --seconday-black: #1f1f1f;
     --amoled-black: #000000;
+
     --main-grey: #2b2b2b;
     --secondary-grey: #303030;
     --tertiary-grey: #858585b7;
+
     --main-blue: #111827;
+
     --accent-main-green: #37ab45;
     --accent-secondary-green: #31eaaa;
+
     --accent-main-red: #9f3537;
     --accent-secondary-red: #e65152;
+
     --accent-main-blue: #70eef1;
+
+    --accent-main-yellow: #b5e853;
+
+    --accent-main-magenta: #d62261;
 
     --main-font-color: #f2f2f2;
 }
@@ -50,7 +59,8 @@ body {
 }
 
 #app {
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
+    font-family: Fira Code, Monaco, Consolas, Ubuntu Mono, monospace;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

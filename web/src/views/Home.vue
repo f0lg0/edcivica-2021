@@ -12,13 +12,13 @@
                     ></TextGlitch>
                 </h1>
                 <p id="subtitle">
-                    Scegli quali tracce lasciare di te stesso <br />
-                    nei computer degli altri.
+                    Scegli quali tracce lasciare di te stesso nei computer degli
+                    altri.
                 </p>
             </div>
 
             <div class="pic">
-                <img src="../assets/banner.png" />
+                <img src="../assets/hacker.png" />
             </div>
         </div>
         <div class="btn">
@@ -48,14 +48,15 @@ export default {
 }
 .banner {
     width: 100%;
-    height: 300px;
+    height: 250px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 70px;
+    margin-bottom: 0;
 }
 .pic {
-    width: 600px;
+    width: 700px;
     height: 600px;
     margin-left: 150px;
 }
@@ -66,21 +67,23 @@ export default {
 }
 
 .btn {
-    margin-left: 85px;
+    margin-top: 0;
+    width: 140px;
 }
 
 .intro {
-    width: 40%;
+    margin-bottom: 0;
+    height: 250px;
 }
 #title {
-    font-size: 70px;
+    font-size: 60px;
     text-align: left;
     font-weight: 900;
     margin-bottom: 0;
 }
 
 #subtitle {
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
     font-weight: 300;
     color: var(--main-font-color);
