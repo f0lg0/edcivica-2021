@@ -120,6 +120,7 @@
                 <span
                     >layer di
                     <a
+                        target="_blank"
                         class="link"
                         href="https://it.wikipedia.org/wiki/Crittografia"
                         >encryption</a
@@ -130,6 +131,7 @@
             <p>
                 Anche se la possibilità di clonare la carta è estremamente
                 remota (<a
+                    target="_blank"
                     class="link"
                     href="https://forum.italia.it/t/clone-cie/18720"
                     >alcuni sviluppatori affermano che sia impossibile</a
@@ -140,6 +142,7 @@
                 adoperano la CIE, ma anche da semplici applicazioni per
                 cellulare che sfruttano la connessione
                 <a
+                    target="_blank"
                     class="link"
                     href="https://it.wikipedia.org/wiki/Near_Field_Communication"
                     >NFC</a
@@ -154,6 +157,7 @@
             <p>
                 Seguendo il
                 <a
+                    target="_blank"
                     class="link"
                     href="https://www.cartaidentita.interno.gov.it/wp-content/uploads/2016/07/cie_3.0_-_specifiche_chip.pdf"
                     >manuale ufficiale</a
@@ -181,7 +185,10 @@
                 Trascurando un attimo il protocollo Basic Access Control, gli
                 algoritmi di cifratura sono entrambi <span>datati</span>,
                 specialmente
-                <a class="link" href="https://en.wikipedia.org/wiki/SHA-1"
+                <a
+                    class="link"
+                    target="_blank"
+                    href="https://en.wikipedia.org/wiki/SHA-1"
                     >SHA-1</a
                 >
                 ormai obsoleto dal lontano 2005. Come recita di nuovo Wikipedia:
@@ -231,6 +238,23 @@
                 la carta livello 100 e chi la livello 1 (magari il nostro
                 presidente Conte avrà diritto al massimo della sicurezza mentre
                 noi comuni mortali unicamente alla configurazione base).
+            </p>
+
+            <h2>Conclusione</h2>
+
+            <p>
+                La CIE risulta essere tecnicamente sicura, un ottimo
+                miglioramento rispetto a vecchi sitemi di autenticazione. Ciò
+                non toglie l'esposizione a nuovi rischi introdotti dal digitale;
+                come si è già visto come in Estonia, considerata il paese più
+                tecnologico d'Europa, dove la carta d'identità elettronica è
+                stata
+                <a
+                    target="_blank"
+                    href="https://www.cybersecitalia.it/hacker-lestonia-blocca-le-carte-didentita-elettroniche/3939/"
+                    class="link"
+                    >hackerata</a
+                >.
             </p>
         </div>
     </div>
