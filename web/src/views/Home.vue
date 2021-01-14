@@ -4,7 +4,7 @@
             <div class="intro">
                 <h1 id="title">
                     <TextGlitch
-                        text="Educazione Civica."
+                        text="Educazione Civica"
                         background="var(--main-black)"
                         fill="var(--accent-main-green)"
                         highlight1="red"

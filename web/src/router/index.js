@@ -21,6 +21,11 @@ const routes = [
         component: () => import("../views/IdentitaDigitale.vue"),
     },
     {
+        path: "/privacy",
+        name: "privacy",
+        component: () => import("../views/Privacy.vue"),
+    },
+    {
         path: "*",
         name: "404",
         component: () => import("../views/404.vue"),
