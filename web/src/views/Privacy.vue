@@ -14,8 +14,6 @@
                     in quella riguardante i
                     <span class="link">Data Breaches</span>
                 </p>
-
-                <hr />
             </div>
 
             <p>La definizione di Privacy stando a Wikipedia è la seguente:</p>

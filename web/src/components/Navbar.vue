@@ -13,15 +13,6 @@
             <div class="space"></div>
 
             <div class="tab">
-                <div :class="{ 'active-tab': isActive('privacy') }"></div>
-                <p
-                    @click.prevent="setActive('privacy')"
-                    :class="{ pActive: isActive('privacy') }"
-                >
-                    Privacy
-                </p>
-            </div>
-            <div class="tab">
                 <div
                     :class="{ 'active-tab': isActive('identitadigitale') }"
                 ></div>
@@ -30,6 +21,15 @@
                     :class="{ pActive: isActive('identitadigitale') }"
                 >
                     Identità digitale
+                </p>
+            </div>
+            <div class="tab">
+                <div :class="{ 'active-tab': isActive('privacy') }"></div>
+                <p
+                    @click.prevent="setActive('privacy')"
+                    :class="{ pActive: isActive('privacy') }"
+                >
+                    Privacy
                 </p>
             </div>
             <div class="tab">
@@ -55,12 +55,17 @@
 </template>
 
 <script>
+/**
+ * Known bug: probably related to "the #" router mode, everytime the users refreshes the page the path goes back to home (/)
+ * so the current active item at refresh is always going to be the home one
+ */
 export default {
     data() {
         return {
             activeItem: "home"
         };
     },
+
     methods: {
         isActive(menuItem) {
             return this.activeItem === menuItem;
