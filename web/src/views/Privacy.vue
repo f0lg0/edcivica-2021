@@ -136,16 +136,16 @@
                 <p>
                     La Cambridge Analytica (CA) è stata una società di
                     consulenza britannica il cui nome è divenuto celebre a
-                    seguito di uno scandalo connesso alla gestione dei dati per
-                    influenzare le campagne elettorali. Il metodo utilizzato
-                    combinava il data mining, l'intermediazione dei dati e
-                    l'analisi dei dati con la comunicazione strategica per la
-                    campagna elettorale. Grazie alla combinazione di queste
-                    discipline con gli studi della psicometria, lo studio dei
-                    comportamenti umani, era in grado di sfruttare il profilo
-                    psicologico degli utenti per individuarne una precisa
-                    personalità ed impacchettare messaggi estremamente precisi
-                    che andavano a colpire le loro debolezze e paure.
+                    seguito di uno <span>scandalo</span> connesso alla gestione
+                    dei dati per influenzare le campagne elettorali. Il metodo
+                    utilizzato combinava il data mining, l'intermediazione dei
+                    dati e l'analisi dei dati con la comunicazione strategica
+                    per la campagna elettorale. Grazie alla combinazione di
+                    queste discipline con gli studi della psicometria, lo studio
+                    dei comportamenti umani, era in grado di sfruttare il
+                    profilo psicologico degli utenti per individuarne una
+                    precisa personalità ed impacchettare messaggi estremamente
+                    precisi che andavano a colpire le loro debolezze e paure.
                 </p>
                 <div class="line"></div>
             </div>
@@ -153,19 +153,22 @@
             <p>
                 Come anticipato da me nella sezione precedente, grazie ai dati
                 <span>raccolti senza il consenso</span> degli utenti di
-                Facebook, CA è riuscita a tracciare fedeli profili delle
-                persone, analizzando chi essi fossero, il loro orientamento
+                Facebook, CA è riuscita a tracciare profili fedeli delle
+                persone, analizzando le loro identità, il loro orientamento
                 politico, le loro preferenze e gusti, i loro acquisti e molto
                 altro.
             </p>
 
             <p>
-                Ogni nostro intervento online espone i nostri metadati e dati al
-                servizio interessato (e non solo, come appunto in questo caso):
-                le foto che carichiamo sui social contengono informazioni quali
-                la posizione, il modello di cellulare usato e quando è stata
-                scattata l'immagine, tutto incorporato in una semplice file.
-                Questi metadati, assieme al contenuto stesso della foto,
+                Ogni nostro intervento online <span>espone</span> i nostri
+                metadati e dati al servizio interessato (e non solo, come
+                appunto in questo caso): le foto che carichiamo sui social
+                contengono informazioni quali
+                <span
+                    >la posizione, il modello di cellulare usato e quando è
+                    stata scattata l'immagine, tutto incorporato in una semplice
+                    file</span
+                >. Questi metadati, assieme al contenuto stesso della foto,
                 diventano di properità del servizio su cui sono stati caricati e
                 non è difficile dunque capire e analizzare la persona che ha
                 caricato quella foto.
@@ -174,14 +177,12 @@
             <p>
                 Questa banca di dati, per un'azienda come CA, costituisce
                 un'ottima fonte di guadagno e un'incredibile strategia di
-                mercato per mettere a colpo un piano malvagio, come la
-                manipolazione delle masse. Gli agganci col governo e con i
-                politici vengono dunque da sé.
+                mercato.
             </p>
 
             <p>
-                Tornando invece al caso di CA, l'azienda Facebook fu coinvolta
-                nello scandalo a causa dell'applicazione
+                Tornando invece allo scandalo del 2018, l'azienda Facebook fu
+                coinvolta a causa dell'applicazione
                 <span>thisisyourdigitallife</span> (letteralmente "questa è la
                 tua vita digitale") di uno sviluppatore di nome Aleksandr Kogan:
                 l'app prometteva di produrre profili psicologici e di previsione
@@ -207,6 +208,13 @@
                 Il problema resta comunque alla radice, Facebook
                 <span>permetteva</span> questo trattamento dei dati in primo
                 luogo.
+            </p>
+
+            <p>
+                Dal 2018, in seguito a numerosi processi a CA e Facebook, molte
+                cose sono cambiate introducendo limitazioni ai tech-giants. Ciò
+                non toglie che le persone dovrebbero essere più caute nel mondo
+                digitale.
             </p>
         </div>
 
@@ -244,8 +252,60 @@
                     rel="noopener noreferrer"
                     >database</a
                 >
-                contententi informazioni sensibili.
+                contententi informazioni sensibili. I data breaches sono più
+                comuni di quanto pensiamo,
+                <a
+                    class="link"
+                    href="`https://www.wired.it/internet/regole/2020/06/23/privacy-data-breach-italia/?refresh_ce=`"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Wired</a
+                >
+                stima un totale di 4 data breaches <span>giornalieri</span> in
+                <span>Italia</span>.
             </p>
+
+            <p>
+                Una delle conseguenze più frequenti di un data breach è la
+                vendita dei dati nel
+                <a
+                    href="https://it.wikipedia.org/wiki/Web_sommerso"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >Deep Web</a
+                >: gli hacker mettono in vendita (o gratuitamente) i dati
+                ottenuti dai databases in forum nascosti del Deep Web. I dati
+                sono spesso emails,
+                <a
+                    class="link"
+                    href="https://it.wikipedia.org/wiki/Funzione_crittografica_di_hash"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >hash</a
+                >
+                di password (certe volte addirittura in chiaro), nominativi,
+                indirizzi di residenza, numeri di cellulare e molto altro.
+            </p>
+
+            <p>I dati vengono poi comprati da altre persone malintenzionate.</p>
+
+            <p>
+                Esiste un
+                <a
+                    class="link"
+                    href="https://haveibeenpwned.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >ottimo sito web</a
+                >
+                fondato da un ricercatore di sicurezza informatica in grado di
+                segnalarti se l'email che inserisci è stata coinvolta in un data
+                breach. Riporto un esempio cercando per la mail di Mario Rossi.
+            </p>
+
+            <div class="pic">
+                <img src="../assets/haveibeenpwned.png" alt="" srcset="" />
+            </div>
         </div>
     </div>
 </template>
@@ -350,5 +410,17 @@ span {
     margin: auto;
 
     margin-top: 100px;
+}
+
+.pic {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.pic img {
+    width: 100%;
+    height: 100%;
 }
 </style>
