@@ -293,6 +293,13 @@ ul li:before {
     width: 80%;
     margin: auto;
 }
+
+@media only screen and (max-width: 1300px) {
+    #idd {
+        width: 100%;
+    }
+}
+
 .intro,
 .cie {
     display: flex;
@@ -314,12 +321,43 @@ ul li:before {
     margin-top: 100px;
 }
 
+@media only screen and (max-width: 1420px) {
+    #title {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #title {
+        text-align: center;
+        height: 100px;
+        margin-top: 50px;
+    }
+    #title h1 {
+        font-weight: 900;
+        font-size: 35px;
+    }
+    .intro {
+        width: 90%;
+    }
+
+    .cie {
+        width: 90%;
+    }
+}
+
 .def {
     width: 70%;
     margin: auto;
     text-align: justify;
 
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    .def {
+        width: 90%;
+    }
 }
 
 span {
