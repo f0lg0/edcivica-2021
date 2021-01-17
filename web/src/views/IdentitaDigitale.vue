@@ -323,7 +323,7 @@ ul li:before {
 
 @media only screen and (max-width: 1420px) {
     #title h1 {
-        font-size: 60px;
+        font-size: 55px;
     }
 }
 
