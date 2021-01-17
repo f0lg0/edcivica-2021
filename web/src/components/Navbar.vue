@@ -83,19 +83,45 @@
 
                             <div class="burger_menu_cont" id="main_burger_menu">
                                 <div class="burger_cont_links">
-                                    <router-link to="/identitadigitale"
-                                        >Identità digitale</router-link
+                                    <p
+                                        @click.prevent="
+                                            closeAndNavigate('identitadigitale')
+                                        "
                                     >
-                                    <router-link to="/privacy"
-                                        >Privacy</router-link
+                                        Identità digitale
+                                    </p>
+                                    <p
+                                        to="/privacy"
+                                        @click.prevent="
+                                            closeAndNavigate('privacy')
+                                        "
                                     >
-                                    <router-link to="/webreputation"
-                                        >Web Reputation</router-link
+                                        Privacy
+                                    </p>
+                                    <p
+                                        to="/webreputation"
+                                        @click.prevent="
+                                            closeAndNavigate('webreputation')
+                                        "
                                     >
-                                    <router-link to="/datipersonali"
-                                        >Dati personali</router-link
+                                        Web Reputation
+                                    </p>
+                                    <p
+                                        to="/datipersonali"
+                                        @click.prevent="
+                                            closeAndNavigate('datipersonali')
+                                        "
                                     >
-                                    <router-link to="/about">About</router-link>
+                                        Dati personali
+                                    </p>
+                                    <p
+                                        to="/about"
+                                        @click.prevent="
+                                            closeAndNavigate('about')
+                                        "
+                                    >
+                                        About
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -155,6 +181,15 @@ export default {
             } else {
                 return false;
             }
+        },
+
+        closeAndNavigate(path) {
+            // close burger
+            const chck = document.getElementById("burger_menu_checkbox");
+            chck.checked = !chck.checked;
+
+            // redirect
+            this.$router.push(path);
         }
     }
 };
@@ -330,7 +365,8 @@ body {
     transform: translateY(-50%);
     margin-top: 60px;
 }
-.burger_cont_links a {
+.burger_cont_links p {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -343,8 +379,8 @@ body {
     margin-top: 30px;
     text-align: center;
 }
-.burger_cont_links a:hover {
-    color: rgb(219, 219, 219);
+.burger_cont_links p:hover {
+    color: var(--main-font-color);
 }
 /* Burger Menu functionality */
 .burger_menu_subcontainer span:first-child {
