@@ -176,7 +176,7 @@ export default {
                 window.innerWidth || 0
             );
 
-            if (screenWidth <= 1500) {
+            if (screenWidth <= 1200) {
                 return true;
             } else {
                 return false;
@@ -261,6 +261,11 @@ body {
     margin-left: 200px;
 }
 
+@media only screen and (max-width: 1500px) {
+    #main-link {
+        margin-left: 0;
+    }
+}
 .space {
     width: 20%;
 }
