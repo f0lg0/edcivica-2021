@@ -322,12 +322,12 @@ ul li:before {
 }
 
 @media only screen and (max-width: 1420px) {
-    #title {
-        font-size: 30px;
+    #title h1 {
+        font-size: 60px;
     }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
     #title {
         text-align: center;
         height: 100px;
