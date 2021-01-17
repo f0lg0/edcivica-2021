@@ -26,6 +26,11 @@ const routes = [
         component: () => import("../views/Privacy.vue"),
     },
     {
+        path: "/datipersonali",
+        name: "datipersonali",
+        component: () => import("../views/DatiPersonali.vue"),
+    },
+    {
         path: "*",
         name: "404",
         component: () => import("../views/404.vue"),
