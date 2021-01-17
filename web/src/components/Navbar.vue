@@ -211,7 +211,7 @@ body {
 }
 
 #nav {
-    width: 100%;
+    width: 90%;
     margin: auto;
     margin-top: 40px;
     padding: 10px;

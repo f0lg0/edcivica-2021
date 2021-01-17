@@ -338,6 +338,8 @@ ul li:before {
     text-align: justify;
     font-size: 18px;
     line-height: 2em;
+    width: 80%;
+    margin: auto;
 }
 .intro,
 .data-breaches,

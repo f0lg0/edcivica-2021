@@ -1,5 +1,5 @@
 <template>
-    <div class="home">
+    <div id="home">
         <div class="banner">
             <div class="intro">
                 <h1 id="title">
@@ -41,10 +41,12 @@ export default {
 </script>
 
 <style scoped>
-.home {
+#home {
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: left;
+    margin: auto;
 }
 .banner {
     width: 100%;

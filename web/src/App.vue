@@ -54,7 +54,7 @@ export default {
 body {
     background-color: var(--main-black);
     color: var(--main-font-color);
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
