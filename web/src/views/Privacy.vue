@@ -267,6 +267,7 @@
                 Una delle conseguenze più frequenti di un data breach è la
                 vendita dei dati nel
                 <a
+                    class="link"
                     href="https://it.wikipedia.org/wiki/Web_sommerso"
                     target="_blank"
                     rel="noopener noreferrer"
