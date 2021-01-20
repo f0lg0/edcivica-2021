@@ -5,12 +5,19 @@ export default {
     extends: Bar,
     data: () => ({
         chartdata: {
-            labels: ["password", "123456", "12345678", "qwerty", "abc123"],
+            labels: [
+                "password",
+                "123456",
+                "12345678",
+                "qwerty",
+                "abc123",
+                "m4MySD9U"
+            ],
             datasets: [
                 {
                     label: "Numero di occorrenze",
                     backgroundColor: "#b5e853",
-                    data: [3861493, 24230577, 3026692, 3993346, 2897638]
+                    data: [3861493, 24230577, 3026692, 3993346, 2897638, 0]
                 }
             ]
         },
