@@ -49,34 +49,6 @@
                 presenza di un terzo fattore, spesso un PIN temporaneo,
                 accompagnato dalle solite credenziali dell'utente.
             </p>
-            <!-- <p>
-                Inoltre, la scelta della password deve essere fatta cercando di
-                evitare password facilmente indovinabili e/o
-                <a
-                    class="link"
-                    href="https://it.wikipedia.org/wiki/Password_cracking"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >"craccabili"</a
-                >. Di seguito riporto un grafico delle
-                <span>password più usate</span> tra il 2011 e il 2019 di fianco
-                a una password randomica di 8 caratteri (sicurezza media).
-            </p>
-
-            <div class="pwd-chart">
-                <p>
-                    Su un totale di <span>613,584,246</span> password coinvolte
-                    in
-                    <a
-                        class="link"
-                        href="https://www.garanteprivacy.it/regolamentoue/databreach"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >data-breaches</a
-                    >:
-                </p>
-                <PwdChart />
-            </div> -->
         </div>
 
         <div class="cie">

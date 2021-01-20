@@ -305,12 +305,46 @@
             <div class="pic">
                 <img src="../assets/haveibeenpwned.png" alt="" srcset="" />
             </div>
+
+            <p>
+                Sempre da tale sito ho raccolto dei dati per analizzare quale
+                fosse la password più frequente nei dump dei data-breaches, in
+                sostanza quale fosse la
+                <span>password più frequentemente usata</span>.
+            </p>
+
+            <p>
+                Di seguito riporto il grafico delle
+                <span>password più usate</span> tra il 2011 e il 2019 di fianco
+                a una password randomica di 8 caratteri (sicurezza media).
+            </p>
+
+            <div class="pwd-chart">
+                <p>
+                    Su un totale di <span>613,584,246</span> password coinvolte
+                    in
+                    <a
+                        class="link"
+                        href="https://www.garanteprivacy.it/regolamentoue/databreach"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >data-breaches</a
+                    >:
+                </p>
+                <PwdChart />
+            </div>
         </div>
     </div>
 </template>
 
 <script>
-export default {};
+import PwdChart from "../components/PwdChart.vue";
+
+export default {
+    components: {
+        PwdChart
+    }
+};
 </script>
 
 <style scoped>
