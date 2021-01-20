@@ -458,4 +458,8 @@ span {
     width: 100%;
     height: 100%;
 }
+
+.pwd-chart p {
+    padding-bottom: 60px;
+}
 </style>
