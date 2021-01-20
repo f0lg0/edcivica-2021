@@ -125,3 +125,13 @@ Fino a quando l’app di Kogan ha raccolto dati sulle reti social degli utenti n
 ### Note
 
 - [ ] parlare di Snowden
+
+
+--------------------------------------------
+
+# Matematica
+
+- most common passwords
+- number of data breaches
+- number of CIEs
+- number of users in Signal

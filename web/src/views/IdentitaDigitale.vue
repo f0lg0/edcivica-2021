@@ -49,6 +49,20 @@
                 presenza di un terzo fattore, spesso un PIN temporaneo,
                 accompagnato dalle solite credenziali dell'utente.
             </p>
+            <p>
+                Inoltre, la scelta della password deve essere fatta cercando di
+                evitare password facilmente indovinabili e/o "craccabili". Di
+                seguito riporto un grafico delle
+                <span>password più usate</span> tra il 2011 e il 2019.
+            </p>
+
+            <div class="pwd-chart">
+                <p>
+                    Su un totale di <span>613,584,246</span> password coinvolte
+                    in data-breaches:
+                </p>
+                <PwdChart />
+            </div>
         </div>
 
         <div class="cie">
@@ -261,7 +275,13 @@
 </template>
 
 <script>
-export default {};
+import PwdChart from "../components/PwdChart.vue";
+
+export default {
+    components: {
+        PwdChart
+    }
+};
 </script>
 
 <style scoped>
@@ -371,6 +391,10 @@ span {
     background-color: var(--accent-main-yellow);
     margin-bottom: 30px;
     margin-top: 30px;
+}
+
+.pwd-chart p {
+    padding-bottom: 50px;
 }
 
 .cie h2 {
