@@ -332,26 +332,32 @@ ul li:before {
 }
 
 @media only screen and (max-width: 1420px) {
+    #title {
+        line-height: 80px;
+    }
     #title h1 {
         font-size: 55px;
+        margin-top: 0;
+        /* trash but whatever */
+        width: 120%;
     }
 }
 
 @media only screen and (max-width: 900px) {
     #title {
-        text-align: center;
-        height: 100px;
-        margin-top: 50px;
+        height: 150px;
+        width: 100%;
     }
     #title h1 {
         font-weight: 900;
-        font-size: 35px;
+        font-size: 2.7rem;
+        line-height: 60px;
     }
     .intro {
         width: 90%;
     }
 
-    .cie {
+    .data-breaches {
         width: 90%;
     }
 }
