@@ -244,8 +244,14 @@ ul li:before {
     width: 80%;
     margin: auto;
 }
+
+@media only screen and (max-width: 1300px) {
+    #privacy {
+        width: 100%;
+    }
+}
+
 .intro,
-.data-breaches,
 .canalytica {
     display: flex;
     justify-content: left;
@@ -280,12 +286,43 @@ ul li:before {
     letter-spacing: 0.2em;
 }
 
+@media only screen and (max-width: 1420px) {
+    #title h1 {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #title {
+        text-align: center;
+        height: 100px;
+        margin-top: 50px;
+    }
+    #title h1 {
+        font-weight: 900;
+        font-size: 35px;
+    }
+    .intro {
+        width: 90%;
+    }
+
+    .canalytica {
+        width: 90%;
+    }
+}
+
 .def {
     width: 70%;
     margin: auto;
     text-align: justify;
 
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 750px) {
+    .def {
+        width: 90%;
+    }
 }
 
 span {
