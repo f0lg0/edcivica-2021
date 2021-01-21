@@ -10,9 +10,7 @@
                 <p>
                     In questa sezione esprimo pensieri personali in merito a
                     questo argomento. L'analisi puramente tecnica inizia nella
-                    sezione di <span class="link">Cambridge Analytica</span> e
-                    in quella riguardante i
-                    <span class="link">Data Breaches</span>
+                    sezione di <span class="link">Cambridge Analytica</span>.
                 </p>
             </div>
 
@@ -119,11 +117,6 @@
                 che possono trovare, ed è compito del cliente saper riconoscere
                 chi fa il ruolo del finto buono.
             </p>
-
-            <p>
-                Dopo questa infarinatura generale, proseguo con l'analisi dei
-                <span>Data Breaches</span>.
-            </p>
         </div>
 
         <div class="canalytica">
@@ -215,136 +208,11 @@
                 digitale.
             </p>
         </div>
-
-        <div class="data-breaches">
-            <h2>Data Breaches</h2>
-
-            <p>
-                I data breaches, stando al
-                <a
-                    class="link"
-                    href="https://www.garanteprivacy.it/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >GPDP</a
-                >, sono:
-            </p>
-            <div class="def">
-                <div class="line"></div>
-                <p>
-                    Una violazione di sicurezza che comporta - accidentalmente o
-                    in modo illecito - la distruzione, la perdita, la modifica,
-                    la divulgazione non autorizzata o l’accesso ai dati
-                    personali trasmessi, conservati o comunque trattati.
-                </p>
-                <div class="line"></div>
-            </div>
-
-            <p>
-                Spesso si tratta di hacker che violano la network di un
-                determinato servizio online per poi accedere ai loro
-                <a
-                    class="link"
-                    href=""
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >database</a
-                >
-                contententi informazioni sensibili. I data breaches sono più
-                comuni di quanto pensiamo,
-                <a
-                    class="link"
-                    href="`https://www.wired.it/internet/regole/2020/06/23/privacy-data-breach-italia/?refresh_ce=`"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Wired</a
-                >
-                stima un totale di 4 data breaches <span>giornalieri</span> in
-                <span>Italia</span>.
-            </p>
-
-            <p>
-                Una delle conseguenze più frequenti di un data breach è la
-                vendita dei dati nel
-                <a
-                    class="link"
-                    href="https://it.wikipedia.org/wiki/Web_sommerso"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >Deep Web</a
-                >: gli hacker mettono in vendita (o gratuitamente) i dati
-                ottenuti dai databases in forum nascosti del Deep Web. I dati
-                sono spesso emails,
-                <a
-                    class="link"
-                    href="https://it.wikipedia.org/wiki/Funzione_crittografica_di_hash"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >hash</a
-                >
-                di password (certe volte addirittura in chiaro), nominativi,
-                indirizzi di residenza, numeri di cellulare e molto altro.
-            </p>
-
-            <p>I dati vengono poi comprati da altre persone malintenzionate.</p>
-
-            <p>
-                Esiste un
-                <a
-                    class="link"
-                    href="https://haveibeenpwned.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >ottimo sito web</a
-                >
-                fondato da un ricercatore di sicurezza informatica in grado di
-                segnalarti se l'email che inserisci è stata coinvolta in un data
-                breach. Riporto un esempio cercando per la mail di Mario Rossi.
-            </p>
-
-            <div class="pic">
-                <img src="../assets/haveibeenpwned.png" alt="" srcset="" />
-            </div>
-
-            <p>
-                Sempre da tale sito ho raccolto dei dati per analizzare quale
-                fosse la password più frequente nei dump dei data-breaches, in
-                sostanza quale fosse la
-                <span>password più frequentemente usata</span>.
-            </p>
-
-            <p>
-                Di seguito riporto il grafico delle
-                <span>password più usate</span> tra il 2011 e il 2019 di fianco
-                a una password randomica di 8 caratteri (sicurezza media).
-            </p>
-
-            <div class="pwd-chart">
-                <p>
-                    Su un totale di <span>613,584,246</span> password coinvolte
-                    in
-                    <a
-                        class="link"
-                        href="https://www.garanteprivacy.it/regolamentoue/databreach"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >data-breaches</a
-                    >:
-                </p>
-                <PwdChart />
-            </div>
-        </div>
     </div>
 </template>
 
 <script>
-import PwdChart from "../components/PwdChart.vue";
-
-export default {
-    components: {
-        PwdChart
-    }
-};
+export default {};
 </script>
 
 <style scoped>

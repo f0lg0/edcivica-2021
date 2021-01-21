@@ -16,7 +16,7 @@ export default {
             datasets: [
                 {
                     label: "Numero di occorrenze",
-                    backgroundColor: "#70eef1",
+                    backgroundColor: "#d62261",
                     data: [3861493, 24230577, 3026692, 3993346, 2897638, 0]
                 }
             ]
