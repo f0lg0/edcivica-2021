@@ -17,6 +17,7 @@ export default {};
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
+    max-width: 1526px;
 }
 
 #not-found p {

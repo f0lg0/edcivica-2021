@@ -242,6 +242,9 @@ ul li:before {
     font-size: 18px;
     line-height: 2em;
     width: 80%;
+    /* since im poor and i dont have a wide ass monitor ima lock this at my width so it looks good and i dont have problems */
+    max-width: 1526px;
+
     margin: auto;
 }
 

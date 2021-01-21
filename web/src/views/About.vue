@@ -14,6 +14,7 @@ export default {};
 <style scoped>
 #about {
     width: 80%;
+    max-width: 1526px;
     margin: auto;
 }
 </style>

@@ -104,6 +104,7 @@ export default {
 <style scoped>
 #home {
     width: 80%;
+    max-width: 1526px;
     display: flex;
     flex-direction: column;
     justify-content: left;

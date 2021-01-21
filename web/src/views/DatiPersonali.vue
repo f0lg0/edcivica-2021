@@ -278,6 +278,7 @@ export default {
     font-size: 18px;
     line-height: 2em;
     width: 80%;
+    max-width: 1526px;
     margin: auto;
 }
 
