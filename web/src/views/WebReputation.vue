@@ -85,6 +85,14 @@
                 quotazione in borsa di un'azienda e-commerce in Italia.
             </p>
 
+            <p>
+                <i
+                    >Se stai visualizzando il sito da mobile le scritte
+                    potrebbero essere tagliate, fai click su una belle barre per
+                    leggere il testo</i
+                >
+            </p>
+
             <div class="chart">
                 <ReputationChart />
             </div>
@@ -179,6 +187,9 @@ ul li:before {
         font-size: 35px;
     }
     .intro {
+        width: 90%;
+    }
+    .stats {
         width: 90%;
     }
 }
