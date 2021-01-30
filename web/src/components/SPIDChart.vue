@@ -17,7 +17,7 @@ export default {
                 "Set",
                 "Ott",
                 "Nov",
-                "Dic"
+                "Dic",
             ],
             datasets: [
                 {
@@ -39,32 +39,37 @@ export default {
                         10987271,
                         12235203,
                         13489155,
-                        15494031
-                    ]
-                }
-            ]
+                        15494031,
+                    ],
+                },
+            ],
         },
         options: {
             responsive: true,
-            maintainAspectRatio: false
+            maintainAspectRatio: false,
 
-            // scales: {
-            //     yAxes: [
-            //         {
-            //             ticks: {
-            //                 scaleLabel: {
-            //                     fontSize: 50
-            //                 }
-            //             }
-            //         }
-            //     ]
-            // }
-        }
+            scales: {
+                xAxes: [
+                    {
+                        ticks: {
+                            fontSize: 15,
+                        },
+                    },
+                ],
+                yAxes: [
+                    {
+                        ticks: {
+                            fontSize: 15,
+                        },
+                    },
+                ],
+            },
+        },
     }),
 
     mounted() {
         this.renderChart(this.chartdata, this.options);
-    }
+    },
 };
 </script>
 
