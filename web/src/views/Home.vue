@@ -4,13 +4,7 @@
             <div class="banner">
                 <div class="intro">
                     <h1 id="title">
-                        <TextGlitch
-                            text="Educazione Civica"
-                            background="var(--main-black)"
-                            fill="var(--accent-main-green)"
-                            highlight1="red"
-                            highlight2="blue"
-                        ></TextGlitch>
+                        <TextGlitch text="Identità nell'era digitale" background="var(--main-black)" fill="var(--accent-main-green)" highlight1="red" highlight2="blue"></TextGlitch>
                     </h1>
                     <p id="subtitle">
                         Scegli quali tracce lasciare di te stesso nei computer
@@ -22,22 +16,16 @@
                     <img src="../assets/hacker.png" />
                 </div>
             </div>
-            <div class="btn">
+            <!-- <div class="btn">
                 <Button msg="Inizia" />
-            </div>
+            </div>-->
         </div>
 
         <div id="small-wrapper" v-else>
             <div class="banner_small">
                 <div class="intro_small">
                     <h1 id="title_small">
-                        <TextGlitch
-                            text="Educazione Civica"
-                            background="var(--main-black)"
-                            fill="var(--accent-main-green)"
-                            highlight1="red"
-                            highlight2="blue"
-                        ></TextGlitch>
+                        <TextGlitch text="Educazione Civica" background="var(--main-black)" fill="var(--accent-main-green)" highlight1="red" highlight2="blue"></TextGlitch>
                     </h1>
                     <p id="subtitle_small">
                         Scegli quali tracce lasciare di te stesso nei computer
@@ -65,7 +53,7 @@ export default {
     data() {
         return {
             desktop: true,
-            isMobile: false
+            isMobile: false,
         };
     },
     created() {
@@ -92,12 +80,12 @@ export default {
             } else {
                 return false;
             }
-        }
+        },
     },
     components: {
         TextGlitch: VueTextGlitch,
-        Button
-    }
+        Button,
+    },
 };
 </script>
 
